@@ -23,7 +23,7 @@
 </head>
 
 <body>
-<?php include "$_SERVER[DOCUMENT_ROOT]/header.php"; ?>
+<?php include "../header.php"; ?>
  
       
       <div class="form-box">

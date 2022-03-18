@@ -21,7 +21,7 @@
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-darkc container-fluid">
 			<div class="container-fluid">
-				<a class="navbar-brand text-white" href="index.php"><img src="imgsrc/logo.png" style=" padding-left: 15px; height: 110px;" /></a>
+				<a class="navbar-brand text-white" href="index.php"><img src="imgsrc/logo.png" alt="Logo Unichamps" style=" padding-left: 15px; height: 110px;" /></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -37,7 +37,7 @@
 							<a class="nav-link text-white" href="direct/direct.php">Direct</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active text-white" href="scoringPoint/scoringPoint.php" tabindex="-1" aria-disabled="true">Classement</a>
+							<a class="nav-link active text-white" href="scoringPoint/scoringPoint.php" tabindex="-1">Classement</a>
 						</li>
 						<!-- <li class="nav-item">
 							<a class="nav-link active text-white" href="contact/contact.php" tabindex="-1" aria-disabled="true">Contact Us</a>
@@ -51,14 +51,15 @@
 		</nav>
 		<!-- VIDEO HOME -->
 		<div id="welcome-vid">
-			<video width="auto" height="auto" autoplay muted loop>
+			<video style="width: auto; height: auto;" autoplay muted loop>
 				<source src="imgsrc/videohome.mp4" type="video/mp4">
 			</video>
 			<h1 id="welcome">Toutes nos VODS sont disponible sur Youtube !</h1>
+		</div>
 		<footer id="footer" class="bg-darkc container-fluid ">
 			<div class="carourou">
 				<a href="https://www.univ-paris13.fr/sport/" target="_blank"> <img src="./imgsrc/daps-logo.png" alt="logo du DAPS" title="logo du DAPS"></a>
-				<a href="https://iutb.univ-paris13.fr" target="_blank"> <img src="./imgsrc/iut logo.png" alt="logo de l'iut de bobigny" title="logo de l'iut de bobigny"></a>
+				<a href="https://iutb.univ-paris13.fr" target="_blank"> <img src="./imgsrc/iut_logo.png" alt="logo de l'iut de bobigny" title="logo de l'iut de bobigny"></a>
 				<a href="https://sport-u-iledefrance.com" target="_blank"> <img src="./imgsrc/ffsport.png" alt="logo du FFSPORT " title="logo du FFSPORT "></a>
 				<a href="https://www.univ-paris13.fr" target="_blank"> <img src="./imgsrc/paris13.png" alt="logo de l'université sorbonne paris 13" title="logo de l'université sorbonne paris 13"></a>
 			</div>

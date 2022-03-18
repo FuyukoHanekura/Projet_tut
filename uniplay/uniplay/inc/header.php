@@ -11,11 +11,11 @@
     </svg></a>
   <div class="navbar container teal borderYtoX">
 
-    <a id="link" href="./index.php">ACCUEIL</a>
-    <a id="link" href="./actu.php">ACTUALITÉ</a>
-    <a id="link" href="./contact.php">CONTACT</a>
-    <a id="link" href="./charteg.php">PROJET</a>
-    <a id="link" href="https://unichamps.sholy.fr" target="_blank">SITE PROJET</a>
+    <a class="link" href="./index.php">ACCUEIL</a>
+    <a class="link" href="./actu.php">ACTUALITÉ</a>
+    <a class="link" href="./contact.php">CONTACT</a>
+    <a class="link" href="./charteg.php">PROJET</a>
+    <a class="link" href="https://unichamps.sholy.fr" target="_blank">SITE PROJET</a>
   </div>
 
 

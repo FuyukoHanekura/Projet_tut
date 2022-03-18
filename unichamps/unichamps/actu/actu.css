@@ -64,10 +64,10 @@
 }
 }
 @media screen and (min-width: 1051px) {
-  #imgg {
+  .imgg {
     overflow: hidden;
     height: 300px;
-    width: 550px;
+    width: 2560px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@
     flex-direction: column;
     align-items: center;
   }
-  #imgg {
+  .imgg {
     overflow: hidden;
     height: 300px;
     width: 380px;
@@ -141,10 +141,10 @@
     height:  250px;
     overflow-y: scroll  ;
   }
-  #imgg {
+  .imgg {
     overflow: hidden;
     height: 300px;
-    width: 400px;
+    width: 290px;
     display: flex;
     justify-content: center;
     align-items: center;
