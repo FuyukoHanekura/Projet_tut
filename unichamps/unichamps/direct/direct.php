@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<?php include "$_SERVER[DOCUMENT_ROOT]/header.php"; ?>
+<?php include "../header.php"; ?>
 
 <!-- NAVBAR VERTICAL -->
 <ul class="nav flex-column bg-darkc  sidebar">

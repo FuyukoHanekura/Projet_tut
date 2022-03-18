@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <?php include "$_SERVER[DOCUMENT_ROOT]/header.php"; ?>
+  <?php include "../header.php"; ?>
   <!-- BLOC BLANC D'INFORMATION  -->
   <div id="information-contact">
     <article class="fixe">

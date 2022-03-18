@@ -27,7 +27,7 @@
 </head>
 
 <body>
-<?php include "$_SERVER[DOCUMENT_ROOT]/header.php"; ?>
+<?php include "../header.php"; ?>
 
  
  <table class="table" id="data" style="width: 600px">
