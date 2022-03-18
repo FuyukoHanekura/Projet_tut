@@ -47,6 +47,17 @@ article .row{
     cursor: pointer;
 }
 
+div .row{
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+div p {
+    margin: 0;
+    padding: 0 0 0 10px;
+    
+}
+
 .media{
     display: flex;
     align-items: flex-end;

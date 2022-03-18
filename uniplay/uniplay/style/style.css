@@ -115,7 +115,7 @@ a {
 
 }
 
-p#presentation {
+p.presentation {
 
   background-color: #89765c;
   color: #201916;
@@ -160,7 +160,7 @@ p#presentation {
 
   }
 
-  p#presentation {
+  p.presentation {
     background-color: #89765c;
     color: #201916;
     position: relative;
@@ -174,13 +174,13 @@ p#presentation {
 
   }
 
-  #presentation.Puno {
+  .presentation.Puno {
 
     margin: 800px 0 30px 10%;
 
   }
 
-  #presentation.Pdos {
+  .presentation.Pdos {
     margin: 10% 0 30px 10%;
 
   }
@@ -235,7 +235,7 @@ p#presentation {
 
   }
 
-  p#presentation {
+  p.presentation {
     background-color: #89765c;
     color: #201916;
     position: relative;
@@ -249,13 +249,13 @@ p#presentation {
 
   }
 
-  #presentation.Puno {
+  .presentation.Puno {
 
     margin: 800px 0 30px 10%;
 
   }
 
-  #presentation.Pdos {
+  .presentation.Pdos {
     margin: 10% 0 30px 10%;
 
   }
@@ -428,7 +428,7 @@ embed {
 /* ========================= */
 
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
-#Iframe-Master-CC-and-Rs {
+.Iframe-Master-CC-and-Rs {
   max-width: 85%;
   height: auto;
   max-height: 1000px;

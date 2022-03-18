@@ -65,3 +65,13 @@ th{
     justify-content: center;
     margin-top: 70px;
 }
+.centered
+{
+	display: flex;
+	justify-content: center;
+	color: whitesmoke;
+}
+.mt-50
+{
+	margin-top: 50px;
+}

@@ -10,7 +10,7 @@
       text-align: center;
   }
   
-  div.container #link
+  div.container .link
   {
       text-decoration: none;
       margin: 0px 10px;
@@ -19,7 +19,7 @@
       z-index: 0;
       cursor: pointer;
   }
-div.borderYtoX #link:before, div.borderYtoX #link:after
+div.borderYtoX .link:before, div.borderYtoX .link:after
 {
     position: absolute;
     opacity: 0.7;
@@ -30,19 +30,19 @@ div.borderYtoX #link:before, div.borderYtoX #link:after
     transition: all 0.3s;
 }
 
-div.borderYtoX #link:before
+div.borderYtoX .link:before
 {
     left: 0px;
     top: 0px;
 }
 
-div.borderYtoX #link:after
+div.borderYtoX .link:after
 {
     right: 0px;
     bottom: 0px;
 }
 
-div.borderYtoX #link:hover:before, div.borderYtoX #link:hover:after
+div.borderYtoX .link:hover:before, div.borderYtoX .link:hover:after
 {
     opacity: 1;
     height: 2px;
@@ -70,7 +70,7 @@ div.borderYtoX #link:hover:before, div.borderYtoX #link:hover:after
     margin: 0 60px 0 0 ;
     
 }
-  .navbar #link {
+  .navbar .link {
     color: #E9E6DF;
     text-decoration: none;
     font-size: 17px;
@@ -99,7 +99,7 @@ div.borderYtoX #link:hover:before, div.borderYtoX #link:hover:after
       display: flex;
       flex-direction: row;
   }
-  .navbar #link {
+  .navbar .link {
       color: #E9E6DF;
       text-decoration: none;
       font-size: 9px;
@@ -125,7 +125,7 @@ div.borderYtoX #link:hover:before, div.borderYtoX #link:hover:after
         display: flex;
         flex-direction: row!important;
     }
-    .navbar #link {
+    .navbar .link {
         color: #E9E6DF;
         text-decoration: none;
         font-size: 9px;
@@ -151,7 +151,7 @@ div.borderYtoX #link:hover:before, div.borderYtoX #link:hover:after
         display: flex;
         flex-direction: column!important;
     }
-    .navbar #link {
+    .navbar .link {
         color: #E9E6DF;
         text-decoration: none;
         font-size: 9px;
